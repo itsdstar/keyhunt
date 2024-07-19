@@ -18,7 +18,7 @@ Work for Ethereum
 - Run against puzzle 66 (address mode)
 
 ```
-./keyhunt -m address -f tests/66.txt -b 66 -l compress -R -q -s 10
+./keyhunt -m address -f tests/66.txt -k 1024 -b 66 -l compress -R -q -s 10 -t 16
 
 ```
 
